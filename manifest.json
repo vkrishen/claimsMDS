@@ -1,0 +1,9 @@
+{
+  "name": "QuickClaims",
+  "short_name": "QuickClaims",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": []
+}
