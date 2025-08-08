@@ -1,9 +1,19 @@
 
 <!DOCTYPE html>
-<html>
-<head><title>QuickClaims OCR</title></head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuickClaims OCR</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#ffffff">
+</head>
 <body>
   <h1>QuickClaims OCR</h1>
-  <p>This is a placeholder for the OCR-enabled QuickClaims web app.</p>
+  <p>Snap or upload receipts, auto-fill details using OCR, and export claims.</p>
+  <input type="file" id="receipt" accept="image/*" capture="environment">
+  <input type="text" id="ocrKey" placeholder="OCR API Key (optional)">
+  <button id="ocrBtn">Auto-fill from image (OCR)</button>
+  <script src="script.js"></script>
 </body>
 </html>
